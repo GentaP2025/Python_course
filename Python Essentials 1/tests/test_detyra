@@ -1,0 +1,30 @@
+
+def isInteg(fjale):
+    fjale = fjale.strip()
+    first_char = False
+    isNumber = False
+    i = 1 
+    if ((fjale[0] == "+") or (fjale[0] == "-")) and len(fjale) > 1:
+        first_char = True
+    elif  fjale[0].isdigit(): 
+        first_char = True
+    
+    if first_char == True:
+        while i < len(fjale):
+            if fjale[i].isdigit():
+                i +=1
+                isNumber = True
+            else:
+                isNumber = False
+                break
+    return isNumber
+
+def main ():
+    a = input("Input a string: ")
+    if isInteg(a):
+        print("String", a, "is integer")
+    else:
+        print("String", a, "is not integer")
+
+if __name__ == "__main__":
+    main()
