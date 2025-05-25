@@ -18,4 +18,7 @@ class BankSystem (self,accounts):
     
 
     def log_transaction(account_number,transaction):
+        print(account_number, transaction)
+
+        
 

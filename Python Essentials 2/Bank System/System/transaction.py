@@ -1,12 +1,16 @@
 class TransactionLog (self,transactions):
 
     def __init__(self):
-        transactions = transactions
+        transactions = []
 
-    def record(transaction):
+    def record(self,transaction):
+        transactions.append(transaction)
 
-    def get_all():
+    def get_all(self):
+        return transactions
+    
 
-    def __str__():
+    def __str__(self):
+        print(transactions.__dict__)
 
 
