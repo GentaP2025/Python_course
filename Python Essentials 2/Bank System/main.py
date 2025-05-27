@@ -7,7 +7,7 @@ acc2 = BankAccount("002", "Bob", 500)
 acc3 = BankAccount("003", "Mary", 2000)
 
 
-bank = BankSystem([])
+bank = BankSystem()
 bank.add_account(acc1)
 bank.add_account(acc2)
 bank.add_account(acc3)
@@ -24,5 +24,5 @@ bank.log_transaction("003", "Withdraw $400")
 bank.show_all_accounts()
 
 # Print logs for account "001"
-print(bank.log_transaction("001","Deposit $200"))
+print(bank.log_transaction("001","Deposit $555"))
 

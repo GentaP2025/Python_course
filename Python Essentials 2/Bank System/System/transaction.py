@@ -1,7 +1,7 @@
 class TransactionLog ():
 
     def __init__(self):
-        transactions = []
+        self.transactions = []
 
     def record(self,transaction):
         self.transactions.append(transaction)
@@ -11,6 +11,6 @@ class TransactionLog ():
     
 
     def __str__(self):
-        print(self.transactions.__dict__)
+        return "\n".join(f"- {t}" for t in self.transactions)
 
 
