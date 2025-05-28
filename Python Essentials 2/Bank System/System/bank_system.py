@@ -6,9 +6,6 @@ class BankSystem:
     def add_account(self,account):
         self.accounts.append(account)
 
-    #def show_all_accounts(self):
-        #return self.accounts
-    
     def show_all_accounts(self):
         for account in self.accounts:
             print(account)    
