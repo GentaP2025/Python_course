@@ -11,6 +11,6 @@ class TransactionLog ():
     
 
     def __str__(self):
-        return "\n".join(f"- {t}" for t in self.transactions)
+        return  ("\n".join(f"- {t}" for t in self.transactions))
 
 

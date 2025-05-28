@@ -11,12 +11,12 @@ class BankSystem:
             print(account)    
     
 
-    def find_account_by_number(self,acc_number):
+    def find_account_by_number(self,acc_number:str):
         for account in self.accounts:
-            if str(acc_number) == account:
-                return acc_number
+            if acc_number == account:
+                return account
         print("Account number do not exist")
-    
+        return None
 
     def log_transaction(self,account_number,transaction):
         print(f"Transaction for account {account_number}: {transaction}")     
