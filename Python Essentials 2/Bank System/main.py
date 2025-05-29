@@ -33,7 +33,7 @@ if acc3.withdraw(400) == True:
 
 bank.show_all_accounts()
 
-acc_f =  bank.find_account_by_number("001")
+acc_f =  bank.find_account_by_number("003")
 if acc_f:
     print(acc_f)
 
