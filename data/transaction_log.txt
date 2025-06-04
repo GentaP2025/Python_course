@@ -1,0 +1,6 @@
+Anna | Deposit | 150
+Anna | Withdraw | 50
+Anna | Withdraw | 200
+Anna | Deposit | 150
+Anna | Withdraw | 50
+Anna | Withdraw | 200
