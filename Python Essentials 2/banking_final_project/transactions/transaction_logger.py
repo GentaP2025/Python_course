@@ -21,3 +21,20 @@ class TransactionLogger:
 
         except Exception as e:
             print(f"An error occurred: {e}")
+
+    def check_string_in_file(file_path, search_string):
+        try:
+            with open(file_path, 'r') as file:
+                for line in file:
+                    if search_string in line:
+                        print(f"Found '{search_string}' in line: {line.strip()}")
+                    return True
+            print(f"'{search_string}' not found in the file.")
+            return False
+        except FileNotFoundError:
+            print(f"The file {file_path} does not exist.")
+            return False
+        except Exception as e:
+            print(f"An error occurred: {e}")
+            return False
+
