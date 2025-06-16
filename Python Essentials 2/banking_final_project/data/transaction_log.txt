@@ -1,0 +1,12 @@
+2025/06/16 | Ana | 00001 | deposit | 200
+2025/06/16 | Ana | 00001 | withdrow | 100
+2025/06/16 | Besi | 00002 | deposit | 350
+2025/06/16 | Besi | 00002 | withdrow | 400
+2025/06/16 | Ana | 00001 | deposit | 200
+2025/06/16 | Ana | 00001 | withdrow | 100
+2025/06/16 | Besi | 00002 | deposit | 350
+2025/06/16 | Besi | 00002 | withdrow | 400
+2025/06/16 | Ana | 00001 | deposit | 200
+2025/06/16 | Ana | 00001 | withdraw | 100
+2025/06/16 | Besi | 00002 | deposit | 350
+2025/06/16 | Besi | 00002 | withdraw | 400

@@ -16,5 +16,5 @@ class BankAccount ():
             print("Insufficient funds")
             return False
 
-    def __str__(self):
+    def display_info(self):
         return f"Account Number: {self.account_number} | Holder: {self.account_holder} | Balance: ${self.balance:.2f}"
