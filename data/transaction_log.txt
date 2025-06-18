@@ -194,3 +194,11 @@ Anna | Withdraw | 200
 25/June/17 16:34:45 | Ana | 00001 | withdraw | 100
 25/June/17 16:34:45 | Besi | 00002 | deposit | 350
 25/June/17 16:34:45 | Besi | 00002 | withdraw | 400
+25/June/18 09:38:58 | Ana | 00001 | deposit | 200
+25/June/18 09:38:58 | Ana | 00001 | withdraw | 100
+25/June/18 09:38:58 | Besi | 00002 | deposit | 350
+25/June/18 09:38:59 | Besi | 00002 | withdraw | 400
+25/June/18 09:42:13 | Ana | 00001 | deposit | 200
+25/June/18 09:42:13 | Ana | 00001 | withdraw | 100
+25/June/18 09:42:13 | Besi | 00002 | deposit | 350
+25/June/18 09:42:13 | Besi | 00002 | withdraw | 400

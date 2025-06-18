@@ -3,6 +3,8 @@ from models.manager import Manager
 from accounts.bank_account import BankAccount
 from transactions.transaction_logger import TransactionLogger
 from datetime import datetime
+from utils.file_handler import save_customers
+from utils.file_handler import load_customers
 
 def main():
     cust1 = Customer("Ana", "ana@gmail.com","0001")
@@ -56,6 +58,14 @@ def main():
     man1 = Manager("M1","Bob")
     man1.m_view_logs
     man1.view_customer([cust1,cust2])
+
+    #Testing json
+    customers = [cust1,cust2]
+    save_customers (customers, 'data/customers.json')
+
+    customers = load_customers('data/customers.json')
+    for customer in customers:
+        print("Testing json:", customer.name, customer.email)
 
 if __name__ == "__main__":
 
