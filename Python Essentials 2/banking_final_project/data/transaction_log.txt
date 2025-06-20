@@ -1,5 +1,9 @@
 
-25/June/18 09:44:59 | Ana | 00001 | deposit | 200
-25/June/18 09:44:59 | Ana | 00001 | withdraw | 100
-25/June/18 09:44:59 | Besi | 00002 | deposit | 350
-25/June/18 09:44:59 | Besi | 00002 | withdraw | 400
+25/June/20 18:13:02 | Ana | 00001 | deposit | 200
+25/June/20 18:13:02 | Ana | 00001 | withdraw | 100
+25/June/20 18:13:02 | Besi | 00002 | deposit | 350
+25/June/20 18:13:02 | Besi | 00002 | withdraw | 400
+25/June/20 18:17:16 | Ana | 00001 | deposit | 200
+25/June/20 18:17:16 | Ana | 00001 | withdraw | 100
+25/June/20 18:17:16 | Besi | 00002 | deposit | 350
+25/June/20 18:17:16 | Besi | 00002 | withdraw | 400

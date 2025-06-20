@@ -10,6 +10,6 @@ class Manager(Employee):
             print(f"Customer ID: {c.cus_ID}, Name: {c.name}, Email: {c.email}")
 
     
-    def m_view_logs():
+    def m_view_logs(self):
         logs = TransactionLogger()
         logs.view_logs()

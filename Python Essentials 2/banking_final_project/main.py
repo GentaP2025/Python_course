@@ -56,7 +56,7 @@ def main():
 
   
     man1 = Manager("M1","Bob")
-    man1.m_view_logs
+    man1.m_view_logs()
     man1.view_customer([cust1,cust2])
 
     #Testing json
